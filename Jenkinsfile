@@ -8,7 +8,6 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-               # git 'https://github.com/ramesh91720721/HelloJenkinsDemo.git'
                 git 'https://github.com/ramesh91720721/HelloJenkinsDemo.git'
             }
         }
